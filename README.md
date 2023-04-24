@@ -37,7 +37,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ## Docker
 Build image.
 ```
-docker build -e API_SERVER_URL=https://xxxxx-chat-gpt.onrender.com -t my_chat_gpt_front .
+docker build --build-arg API_SERVER_URL=https://xxxxx-chat-gpt.onrender.com -t my_chat_gpt_front .
 ```
 
 Run a container.
